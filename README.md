@@ -72,9 +72,8 @@
 
 ### 选项 A: Cloudflare Pages (推荐)
 
-1.  **创建项目**: 连接 GitHub 仓库，选择 `Create a project`。
+1.  **创建项目**: 连接 GitHub 仓库，选择 `Create a project`。或者直接上传压缩包。
 2.  **构建配置**:
-    *   **Framework preset**: Vite
     *   **Build command**: `npm run build`
     *   **Build output directory**: `dist`
 3.  **绑定 KV 存储 (重要)**:
@@ -88,11 +87,8 @@
 
 ### 选项 B: 腾讯云 EdgeOne Pages
 
-1.  **创建项目**: 导入 GitHub 仓库。
-2.  **构建配置**:
-    *   **构建命令**: `npm run build`
-    *   **输出目录**: `dist`
-3.  **环境配置**:
+1.  **创建项目**: 导入 GitHub 仓库或者上传压缩包。
+2。  **环境配置**:
     *   在项目概览页，找到 **环境配置**。
     *   **KV 存储绑定**: 变量名称填 `KESSOKU_KV`，选择或创建你的 KV 命名空间。
     *   **环境变量**: 添加 `ADMIN_SECRET`，填入你的管理员 UUID。
@@ -105,7 +101,7 @@
 访问 `https://你的域名.com/#/admin`。
 
 ### 2. 身份验证
-输入项目 `constants.ts` 文件中配置的 `ADMIN_UUID`（默认为 `57c944e7-5fed-4bd9-a211-b0d45ce5a0f4`，**部署前请务必修改**）。
+输入项目 `constants.ts` 文件中配置的 `ADMIN_UUID`（默认为 `815dd683-be8f-44f0-b0af-a3ed9aadd65d`，**部署前请务必修改**）。
 
 ### 3. 数据管理
 *   **添加视频**: 填写标题、链接，选择分类、日期。支持手动输入子分类（如“2025新番”），前台会自动生成对应的筛选标签。
@@ -136,4 +132,8 @@ MIT License
 
 ---
 
-### 以上内容为AI自动生成
+### 以上内容大部分为AI自动生成，仅作少数修改。
+
+本项目为公开展示用。为与已搭建网站做好区分，密码部分已做脱敏修改。
+
+自行搭建请务必 **修改密码**
