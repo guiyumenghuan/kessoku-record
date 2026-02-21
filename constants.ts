@@ -26,12 +26,12 @@ export const INITIAL_VIDEOS: VideoLink[] = [
     "id": "1765339224070",
     "title": "孤独摇滚（下） PV",
     "url": "https://www.bilibili.com/bangumi/play/ep2333791",
-    "category": "Animation"，
+    "category": "Animation",
     "subCategory": "PV",
     "dateAdded": 1746763200000
   },
   {
-    "id": "1765339166191"，
+    "id": "1765339166191",
     "title": "孤独摇滚（上） PV",
     "url": "https://www.bilibili.com/bangumi/play/ep2333769",
     "category": "Animation",
@@ -73,7 +73,7 @@ export const INITIAL_VIDEOS: VideoLink[] = [
   {
     "id": "1764520334713",
     "title": "【完整熟肉】舞台剧「孤独摇滚！」【8/20千秋楽夜公演】",
-    "url": "https://www.bilibili.com/video/BV19H4y1Q7XV"，
+    "url": "https://www.bilibili.com/video/BV19H4y1Q7XV",
     "category": "Stage",
     "subCategory": "正片",
     "dateAdded": 1692504000000
@@ -87,7 +87,7 @@ export const INITIAL_VIDEOS: VideoLink[] = [
     "dateAdded": 1667707200000
   },
   {
-    "id": "1764520030577"，
+    "id": "1764520030577",
     "title": "第1回",
     "url": "https://www.bilibili.com/video/BV15841147y2/",
     "category": "Radio",
@@ -97,7 +97,7 @@ export const INITIAL_VIDEOS: VideoLink[] = [
   {
     "id": "1764519945478",
     "title": "ROCK IN JAPAN 2025",
-    "url": "https://www.bilibili.com/video/BV1LvULBsEMZ"，
+    "url": "https://www.bilibili.com/video/BV1LvULBsEMZ",
     "category": "Concert",
     "subCategory": "单曲",
     "dateAdded": 1763697600000
