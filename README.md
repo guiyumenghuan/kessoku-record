@@ -3,7 +3,7 @@
 # 🎸 KESSOKU RECORD (结束记录)
 
 > **Unofficial Bilibili Index for Kessoku Band**  
-> 《孤独摇滚！》B站二创与官方视频索引数据库
+> 《孤独摇滚！》相关视频索引数据库
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-18-blue)
@@ -133,3 +133,7 @@
 ## 📄 License
 
 MIT License
+
+---
+
+### 以上内容为AI自动生成
